@@ -118,7 +118,7 @@ const SingleProduct = () => {
                             <div className='d-flex gap-10 align-items-center my-3'>
                                 <h3 className='product-heading'>Product Link:</h3> 
                                 <p className='product-data'>
-                                    <a href='javascript:void(0);' onClick={ () => {
+                                    <a href='#' onClick={ () => {
                                         copyToClipboard("https://www.watches.com/cdn/shop/products/xeric-scrambler-rose-gold-ocean-2_1800x.jpg?v=1683578627");
                                         }}
                                     >Copy Product Link</a>
