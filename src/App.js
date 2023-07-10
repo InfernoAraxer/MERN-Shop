@@ -12,6 +12,7 @@ import Wishlist from './pages/Wishlist';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
 import SingleBlog from './pages/SingleBlog';
@@ -36,6 +37,7 @@ function App() {
               <Route path="blogs" element={<Blogs />} />
               <Route path="blog/:id" element={<SingleBlog />} />
               <Route path="cart" element={<Cart />} />
+              <Route path="checkout" element={<Checkout />} />
               <Route path="compare-products" element={<CompareProducts />} />
               <Route path="wishlist" element={<Wishlist />} />
               <Route path="login" element={<Login />} />
