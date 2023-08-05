@@ -409,6 +409,10 @@ footer .input-group-text {
   background-color: white;
 }
 
+.special-product-card .title {
+  overflow-wrap: break-word;
+}
+
 /* Special Product Ends Here */
 
 /* Famous Products */
